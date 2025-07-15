@@ -8,4 +8,44 @@
 
 // TODO BONUS: Rewrite with if
 
-const num = 15;
+const num = 17;
+
+if (num % 3 === 0 && num % 5 === 0) {
+    console.log("FizzBuzz");
+}else if (num % 3 === 0){
+    console.log("Fizz");
+}else if (num % 5 === 0){
+    console.log("Buzz");
+}else{
+    console.log("Not divisible by 3 or 5");
+}
+
+// Bonus
+// if (num % 3 === 0 && num % 5 === 0) {
+//     console.log("FizzBuzz");
+// }
+// if (num % 3 === 0 && num % 5 !== 0) {
+//     console.log("Fizz");
+// }
+// if (num % 5 === 0 && num % 3 !== 0){
+//     console.log("Buzz");
+// }
+// if (num % 3 !== 0  &&  num % 5 !== 0){
+//     console.log("Not divisible by 3 or 5");
+// }
+
+
+// Bonus --2--
+// let result = "";
+// if (num % 3 === 0) {
+//   result += "Fizz";
+// }
+// if (num % 5 === 0) {
+//   result += "Buzz";
+// }
+// if (result === "") {
+//   result = "Not divisible by 3 or 5";
+// }
+// console.log(result);
+
+//-m "task04 solution"
